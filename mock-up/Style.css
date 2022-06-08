@@ -1,12 +1,37 @@
-header{
-    font-size: xx-large;
-    background-color: aqua;
-    padding-right: 3px;
-    border: 10px solid blue;
-    margin: auto;
+html{
+    background-color: gray;
 }
-#About-me{
-    color: blue;
-    font: initial;
+header{
+    height: fit-content;
+    width: 600px;
+    font-size: 24px;
+    background-color: rgb(233, 37, 37);
+    padding-right: 3px;
+    border: 10px solid rgb(11, 201, 144);
+    margin: 40px;
+}
 
+p{
+    color: palegoldenrod;
+}
+
+.About-me{
+    height: fit-content;
+    width: 500px;
+    background-color: rgb(4, 50, 110);
+    padding-left: 10px;
+    border: 10px solid pink;
+    margin: 10px;
+
+
+}
+
+#Work{
+
+    width: fit-content;
+    height: 60px;
+    background-color: red;
+    padding: 3px;
+    border: 3px dotted pink;
+    margin: 3px;
 }

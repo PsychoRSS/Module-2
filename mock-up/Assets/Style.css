@@ -1,0 +1,84 @@
+
+:root{
+    --cardh: height: 60px;  
+    --cardw: width: 90px;
+    --cardtitlew: width: 30px
+    --cardtitleh: height: 15px
+    --cardpos: position: absolute;
+    --rightpos: right: 50px;
+    
+        
+}
+
+html{
+    background-color: gray;
+}
+body{
+    width: auto;
+    height: auto;
+    
+}
+
+.ctitle{
+    background-color: rgb(13, 5, 83);
+    width: fit-content;
+    position: relative; 
+    left: 10px;
+}   
+header{
+
+    height: fit-content;
+    width: auto;
+    font-size: 24px;
+    background-color: rgb(129, 2, 2);
+    border: 10px solid rgb(71, 4, 51);
+    
+}
+#selfie{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    left: 150px;
+}
+#alex{
+    background-color: rgb(62, 4, 117);
+    width: fit-content;
+    position: relative;
+    left: 600px;
+}
+p{
+    color: palegoldenrod;
+}
+
+.About-me{
+    height: fit-content;
+    width: 500px;
+    background-color: rgb(4, 50, 110);
+    padding-left: 10px;
+    border: 10px dotted pink;
+    margin: 10px;
+
+
+}
+
+#project{
+    position: relative;
+    left: 567px;
+    bottom: 500px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(129, 2, 2);
+    padding: 3px;
+    border: 3px dotted pink;
+    margin: 3px;
+}
+.workcard{
+    position: relative;
+    left: 550px;
+    bottom: 500px;
+    background-color: rgb(4, 50, 110) ;
+    width: 300px;
+    margin: 20px;
+    padding: 0px;
+    border: dotted pink 5px;
+}

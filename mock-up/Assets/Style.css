@@ -70,6 +70,8 @@ p{
     bottom: 600px;    
 }
 #project{
+    position: relative;
+    left: 20px;
     width: fit-content;
     height: fit-content;
     background-color: rgb(129, 2, 2);
@@ -77,8 +79,12 @@ p{
     border: 3px dotted rgb(151, 45, 65);
     margin: 3px;
 }
+.workcard :hover{
+    background-color: pink;
+
+}
 .workcard{
-    
+    background-image: url("images/Selfie.jpg"), url("paper.gif");
     background-color: rgb(4, 50, 110) ;
     width: 300px;
     margin: 20px;
